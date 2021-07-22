@@ -188,8 +188,8 @@ export default {
       this.arrnew_deaths_covid=[]
       this.arrcases_covid=[]
       this.arrdeaths_covid=[]
-      this.new_tests=[]
-      this.tests=[]
+      this.arrnew_test=[]
+      this.arrtests=[]
       if (this.input_iso.length==3 || this.input_name.length>=3){
         this.ISO = this.input_iso.toUpperCase()
         this.name = this.input_name.charAt(0).toUpperCase() + this.input_name.slice(1)
